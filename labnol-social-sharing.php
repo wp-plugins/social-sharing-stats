@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Social Sharing Stats
-Plugin URI: http://www.labnol.org/
-Description: Show Shocial Sharing stats for your blog posts in the WordPress Admin Dashboard
+Plugin URI: http://ctrlq.org/
+Description: Displaying social sharing counts of your blog posts in the WordPress Admin dashboard.
 Author: Amit Agarwal
 Version: 0.1
-Author URI: http://www.labnol.org/
+Author URI: http://www.labnol.org/about/
 */
 
 function add_labnol_column($columns) {
@@ -23,12 +23,13 @@ add_action( 'admin_enqueue_scripts', 'social_enqueue' );
 function labnol_columns( $column, $post_id ) {
   if ( $column == "labnolsocial" ) :
 ?>
+
  <div class="addthis_toolbox addthis_default_style" 
     addthis:url="<?php echo get_permalink ( $post_id ); ?>" 
-    addthis:title="<?php echo htmlentities(get_the_title($post_id)); ?>">
-   <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-   <a class="addthis_button_tweet"></a>
-   <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    addthis:title="<?php echo htmlentities(get_the_title($post_id)); ?>"> 
+     <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a> 
+     <a class="addthis_button_tweet"></a> 
+     <a class="addthis_button_google_plusone" g:plusone:size="medium"></a> 
  </div>
 <?php
  endif; 
