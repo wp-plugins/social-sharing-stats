@@ -1,4 +1,4 @@
-=== Social Sharing Stats ===
+=== Social Sharing Analytics ===
 Tags: twitter, facebook, tweet, google, social, admin
 Contributors: labnol
 Requires at least: 3.1
@@ -11,13 +11,16 @@ Display the social sharing counts of your blog posts in the WordPress Admin dash
 
 == Description ==
 
-This plugin will display the the social sharing counts of your blog posts in the WordPress Admin dashboard. It adds a new column to your "Edit Posts" screen where these numbers are displayed.
+This WordPress plugin will display the the social sharing counts of your blog posts in the WordPress Admin dashboard. It adds a new column to your "Edit Posts" screen where the counts are displayed.
 
-The statistics are pulled live from Twitter, Facebook, Google Plus and other social networks. You can also tweet, like or +1 your blog posts from the WordPress admin dashboard itself.
+The sharing statistics are pulled from Twitter, Facebook, Google Plus and other social networks. You can also tweet, like or +1 your blog posts from the WordPress admin dashboard itself.
 
+The plugin uses JavaScript to display the social sharing counts and does not store any data in your WordPress database or blog posts.
+
+= Hiding the Social Sharing Column = 
 If you would like to hide the Social Sharing Stats column in WordPress, either choose Screen Options and uncheck the Social column or you can deactivate the plugin itself.
 
-The plugin uses JavaScript to display the social sharing counts and does not store any data in your WordPress database or blog posts. 
+This plugin is written by [Amit Agarwal](http://twitter.com/labnol) of [Digital Inspiration](http://www.labnol.org/). An online version of this plugin for non-WordPress blogs is available at [CtrlQ](http://ctrlq.org/analytics/).
 
 == Screenshots ==
 

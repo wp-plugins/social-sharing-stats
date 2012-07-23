@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Social Sharing Stats
-Plugin URI: http://ctrlq.org/
-Description: Displaying social sharing counts of your blog posts in the WordPress Admin dashboard.
+Plugin Name: Social Sharing Analytics
+Plugin URI: http://ctrlq.org/analytics/
+Description: Display social sharing statistics of your blog posts in the WordPress Admin dashboard.
 Author: Amit Agarwal
 Version: 0.2
 Author URI: http://www.labnol.org/about/
