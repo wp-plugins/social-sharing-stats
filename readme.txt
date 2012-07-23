@@ -17,10 +17,15 @@ The sharing statistics are pulled from Twitter, Facebook, Google Plus and other 
 
 The plugin uses JavaScript to display the social sharing counts and does not store any data in your WordPress database or blog posts.
 
+An online version of this plugin is available at [CtrlQ.org](http://ctrlq.org/analytics/).
+
 = Hiding the Social Sharing Column = 
+
 If you would like to hide the Social Sharing Stats column in WordPress, either choose Screen Options and uncheck the Social column or you can deactivate the plugin itself.
 
-This plugin is written by [Amit Agarwal](http://twitter.com/labnol) of [Digital Inspiration](http://www.labnol.org/). An online version of this plugin for non-WordPress blogs is available at [CtrlQ](http://ctrlq.org/analytics/).
+= About = 
+
+This plugin is written by [Amit Agarwal](http://twitter.com/labnol) of [Digital Inspiration](http://www.labnol.org/). 
 
 == Screenshots ==
 
